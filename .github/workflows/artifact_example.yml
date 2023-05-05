@@ -14,8 +14,8 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
-          with:
-            name: ${{ env.USER_NAME }}
-            path: ./file.txt
+        with:
+          name: ${{ env.USER_NAME }}
+          path: ./file.txt
 
             
